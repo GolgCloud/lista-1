@@ -4,13 +4,10 @@ class Program
 {
     static void Main()
     {
-        // Solicita ao usuário para digitar um número decimal
         Console.Write("Digite um número decimal: ");
         
-        // Lê a entrada do usuário e converte para o tipo decimal
         decimal numeroDecimal = Convert.ToDecimal(Console.ReadLine());
         
-        // Exibe o valor da variável na tela
         Console.WriteLine("Você digitou o número decimal: " + numeroDecimal);
     }
 }
