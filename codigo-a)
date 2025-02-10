@@ -4,13 +4,10 @@ class Program
 {
     static void Main()
     {
-        // Solicita ao usuário para digitar um número inteiro
         Console.Write("Digite um número inteiro: ");
         
-        // Lê a entrada do usuário e converte para um inteiro
         int numero = Convert.ToInt32(Console.ReadLine());
-        
-        // Exibe o valor da variável na tela
+
         Console.WriteLine("Você digitou o número: " + numero);
     }
 }
