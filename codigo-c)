@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Solicita ao usuário para digitar um número de ponto flutuante
+        Console.Write("Digite um número de ponto flutuante: ");
+        
+        // Lê a entrada do usuário e converte para um número do tipo float
+        float numeroFloat = float.Parse(Console.ReadLine());
+        
+        // Exibe o valor da variável na tela
+        Console.WriteLine("Você digitou o número de ponto flutuante: " + numeroFloat);
+    }
+}
