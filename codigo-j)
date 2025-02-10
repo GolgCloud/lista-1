@@ -1,0 +1,25 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite o número da casa: ");
+        string numero = Console.ReadLine();
+        
+        Console.Write("Digite o nome da rua: ");
+        string rua = Console.ReadLine();
+        
+        Console.Write("Digite o nome do bairro: ");
+        string bairro = Console.ReadLine();
+        
+        Console.Write("Digite o nome da cidade: ");
+        string cidade = Console.ReadLine();
+        
+        Console.Write("Digite o nome do estado: ");
+        string estado = Console.ReadLine();
+        
+        string enderecoCompleto = numero + ", " + rua + ", " + bairro + ", " + cidade + ", " + estado;
+        Console.WriteLine("Endereço completo: " + enderecoCompleto);
+    }
+}
