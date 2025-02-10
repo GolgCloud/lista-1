@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite o preço do produto: R$ ");
+        double precoProduto = Convert.ToDouble(Console.ReadLine());
+        
+        Console.Write("Digite o desconto em porcentagem: ");
+        double descontoPercentual = Convert.ToDouble(Console.ReadLine());
+        
+        double valorDesconto = (descontoPercentual / 100) * precoProduto;
+        
+        double precoFinal = precoProduto - valorDesconto;
+        
+        Console.WriteLine("Preço original: R$ " + precoProduto);
+        Console.WriteLine("Desconto: R$ " + valorDesconto);
+        Console.WriteLine("Preço final com desconto: R$ " + precoFinal);
+    }
+}
