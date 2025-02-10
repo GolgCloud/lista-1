@@ -4,13 +4,10 @@ class Program
 {
     static void Main()
     {
-        // Solicita ao usuário para digitar um caractere
         Console.Write("Digite um caractere: ");
         
-        // Lê a entrada do usuário e armazena o primeiro caractere em uma variável do tipo char
         char caractere = Console.ReadKey().KeyChar;
         
-        // Exibe o valor da variável na tela
         Console.WriteLine("\nVocê digitou o caractere: " + caractere);
     }
 }
