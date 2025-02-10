@@ -4,16 +4,12 @@ class Program
 {
     static void Main()
     {
-        // Solicita ao usuário para digitar "sim" ou "não"
         Console.Write("Digite 'sim' ou 'não': ");
         
-        // Lê a entrada do usuário
         string resposta = Console.ReadLine().ToLower();
         
-        // Converte a entrada para um valor booleano
         bool respostaBoolean = (resposta == "sim");
         
-        // Exibe o valor da variável na tela
         Console.WriteLine("Você digitou: " + respostaBoolean);
     }
 }
