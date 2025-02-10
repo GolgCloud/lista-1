@@ -4,15 +4,12 @@ class Program
 {
     static void Main()
     {
-        // Solicita ao usuário para digitar seu nome
         Console.Write("Digite seu nome: ");
         string nome = Console.ReadLine();
         
-        // Solicita ao usuário para digitar sua idade
         Console.Write("Digite sua idade: ");
         int idade = Convert.ToInt32(Console.ReadLine());
         
-        // Exibe o nome e a idade do usuário
         Console.WriteLine("Seu nome é " + nome + " e você tem " + idade + " anos.");
     }
 }
